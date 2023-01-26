@@ -1,0 +1,107 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: gold;
+}
+.aylana1
+{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    animation: aylana1 8s linear infinite;
+}
+@keyframes aylana1
+{
+    50%
+    {
+        transform: translate(500px) rotate(180deg);
+        width: 2px;
+        height: 2px;
+    }
+    100%
+    {
+        transform: translate(1000px) rotate(360deg);
+    }
+}
+.aylana2
+{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    animation: aylana1 6s linear infinite;
+}
+@keyframes aylana2
+{
+    50%
+    {
+        transform: translate(500px) rotate(180deg);
+        width: 2px;
+        height: 2px;
+    }
+    100%
+    {
+        transform: translate(1000px) rotate(360deg);
+    }
+}
+.aylana3
+{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    border-radius: 50%;
+    animation: aylana1 4s linear infinite;
+}
+@keyframes aylana3
+{
+    50%
+    {
+        transform: translate(500px) rotate(180deg);
+        width: 2px;
+        height: 2px;
+    }
+    100%
+    {
+        transform: translate(1000px) rotate(360deg);
+    }
+}
+.aylana4
+{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    animation: aylana1 2s linear infinite;
+}
+@keyframes aylana4
+{
+    50%
+    {
+        transform: translate(500px) rotate(180deg);
+        width: 2px;
+        height: 2px;
+    }
+    100%
+    {
+        transform: translate(1000px) rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
